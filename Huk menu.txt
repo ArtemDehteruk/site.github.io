@@ -1,0 +1,10 @@
+Thi's is huk for menu justify(work two and ... stong).
+.b-nav-ul
+ 	text-align: justify
+ 	&:after
+ 		content: ""
+ 		width: 100%
+ 		height: 0
+ 		display: inline-block
+.b-nav-list
+ 	display: inline-block

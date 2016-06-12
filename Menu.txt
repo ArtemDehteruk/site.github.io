@@ -1,0 +1,39 @@
+<div class="header__menu">
+	<ul class="menu">
+		<li class="menu__item">
+			<a href="#" class="menu__link">
+				<span class="menu__link-text">Text</span>
+			</a>
+		</li>
+	</ul>
+</div>
+
+.menu
+ 	text-align: justify
+ 	&:after
+ 		content: ""
+ 		width: 100%
+ 		height: 0
+ 		display: inline-block
+.menu__item
+ 	display: inline-block
+
+Thi's li center
+
+<div>
+	<ul>
+		<li>
+			<a href="#"> 1 </a>
+		</li>
+	</ul>
+</div>
+
+div
+	width: 240px
+ul
+	display: table-row
+li
+	display: table-cell
+a
+	display: table-cell
+	width: 240px
